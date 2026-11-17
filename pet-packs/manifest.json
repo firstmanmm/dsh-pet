@@ -1,0 +1,589 @@
+{
+  "schemaVersion": 1,
+  "format": "dsh-pet custom pet packs",
+  "canvas": [
+    640,
+    360
+  ],
+  "upstream": "https://github.com/PC2005-cloud/dsh-pet",
+  "packs": [
+    {
+      "id": "codex-acheron",
+      "name": "黄泉",
+      "sourcePetId": "acheron--lingxiaotian",
+      "variant": "hd-redrawn",
+      "defaultDisplay": "none",
+      "config": "pet-packs/codex-acheron/config.jsonc",
+      "avatar": "pet-packs/codex-acheron/avatar.png",
+      "animations": [
+        {
+          "name": "待机",
+          "file": "pet-packs/codex-acheron/animations/待机.webm",
+          "sha256": "f9f3a51eb30f45f3bb3950e5d1f2b28f3520c18899ca4eb9871d55649cef4e45",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 82,
+          "durationSeconds": 6.833
+        },
+        {
+          "name": "向右跑",
+          "file": "pet-packs/codex-acheron/animations/向右跑.webm",
+          "sha256": "fe4f5c4d59f3196414712e17c40e6ac75cc375f02634e3a5011a463995d3f00b",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 18,
+          "durationSeconds": 2.25
+        },
+        {
+          "name": "向左跑",
+          "file": "pet-packs/codex-acheron/animations/向左跑.webm",
+          "sha256": "5f3718d75564ea996a2279a5121b8916facd80b686032531a9915a97acb9bc7b",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 18,
+          "durationSeconds": 2.25
+        },
+        {
+          "name": "挥手",
+          "file": "pet-packs/codex-acheron/animations/挥手.webm",
+          "sha256": "7b96729b83e21f4717b900c9e943c20c0f5db4616c2bd8202111da97190f368e",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 9,
+          "durationSeconds": 1.5
+        },
+        {
+          "name": "跳跃",
+          "file": "pet-packs/codex-acheron/animations/跳跃.webm",
+          "sha256": "ddf0faf01da388aec7579e940950dc76f489be26b85a59f624d88a1bdb598b24",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 9,
+          "durationSeconds": 1.125
+        },
+        {
+          "name": "失落",
+          "file": "pet-packs/codex-acheron/animations/失落.webm",
+          "sha256": "546410b0a2d136642a85cbcf4d3d23ecdd6872624a0edae1bc74831dfc7c753a",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 16,
+          "durationSeconds": 2.667
+        },
+        {
+          "name": "等待",
+          "file": "pet-packs/codex-acheron/animations/等待.webm",
+          "sha256": "94dbc1569c6b941c3c5a7adb9fd4c836fae249b9a4b146819faa62569a7fb8f4",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 12,
+          "durationSeconds": 2.0
+        },
+        {
+          "name": "工作",
+          "file": "pet-packs/codex-acheron/animations/工作.webm",
+          "sha256": "804ef2dbbc9d8575c157faab892a95c8efc2b59f5b473aca6246151bca3ac973",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 18,
+          "durationSeconds": 3.0
+        },
+        {
+          "name": "检视",
+          "file": "pet-packs/codex-acheron/animations/检视.webm",
+          "sha256": "5050119a632eced056826cc0647b090cc846ed5a8e5fd6be35e70445463b4148",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 15,
+          "durationSeconds": 2.5
+        }
+      ]
+    },
+    {
+      "id": "codex-firefly",
+      "name": "流萤",
+      "sourcePetId": "firefly--lingxiaotian",
+      "variant": "pixel-atlas-conversion",
+      "defaultDisplay": "none",
+      "config": "pet-packs/codex-firefly/config.jsonc",
+      "avatar": "pet-packs/codex-firefly/avatar.png",
+      "animations": [
+        {
+          "name": "待机",
+          "file": "pet-packs/codex-firefly/animations/待机.webm",
+          "sha256": "a974a152ffc33695ae0305bac4d6dcfe9e3992209bd9b54f5e4c3e3afe28dda4",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 18,
+          "durationSeconds": 3.0
+        },
+        {
+          "name": "向右跑",
+          "file": "pet-packs/codex-firefly/animations/向右跑.webm",
+          "sha256": "7572b9e92da5bacc52687e48a3d1f4ab5a80759664c9bb0ed79d02186e975ee1",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 24,
+          "durationSeconds": 3.0
+        },
+        {
+          "name": "向左跑",
+          "file": "pet-packs/codex-firefly/animations/向左跑.webm",
+          "sha256": "384378c6b1b0f5cd21cc7344bf0197fcb9ef2a07c8a9c7736074ca2ab630514a",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 24,
+          "durationSeconds": 3.0
+        },
+        {
+          "name": "挥手",
+          "file": "pet-packs/codex-firefly/animations/挥手.webm",
+          "sha256": "be9d2efa7a25495418b623c961d9063d08ad0076a5779742e43f617069c8d207",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 8,
+          "durationSeconds": 1.334
+        },
+        {
+          "name": "跳跃",
+          "file": "pet-packs/codex-firefly/animations/跳跃.webm",
+          "sha256": "0cad687d21d63599c23c3407ae06a153083350897fb233b076af0ee18b601938",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 10,
+          "durationSeconds": 1.25
+        },
+        {
+          "name": "失落",
+          "file": "pet-packs/codex-firefly/animations/失落.webm",
+          "sha256": "63f7fe8590019736f440d7db802a8c72c045761f06d89d9946da5005eb9ca984",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 16,
+          "durationSeconds": 2.667
+        },
+        {
+          "name": "等待",
+          "file": "pet-packs/codex-firefly/animations/等待.webm",
+          "sha256": "9ad360d776a1bfce469f93788324b3beefec3cfd812f954d0a5852160883ab03",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 12,
+          "durationSeconds": 3.0
+        },
+        {
+          "name": "工作",
+          "file": "pet-packs/codex-firefly/animations/工作.webm",
+          "sha256": "9bbe885e00e1e06eceb15e7b636d4887975fa4c54ef55795c0e484803a43641e",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 18,
+          "durationSeconds": 3.0
+        },
+        {
+          "name": "检视",
+          "file": "pet-packs/codex-firefly/animations/检视.webm",
+          "sha256": "38e481a304045bb72207453e687b472dfec1cbed1067d6e36ea63c7f55b994c6",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 12,
+          "durationSeconds": 2.4
+        }
+      ]
+    },
+    {
+      "id": "codex-ayaka",
+      "name": "神里绫华",
+      "sourcePetId": "kamisato-ayaka--lingxiaotian",
+      "variant": "pixel-atlas-conversion",
+      "defaultDisplay": "none",
+      "config": "pet-packs/codex-ayaka/config.jsonc",
+      "avatar": "pet-packs/codex-ayaka/avatar.png",
+      "animations": [
+        {
+          "name": "待机",
+          "file": "pet-packs/codex-ayaka/animations/待机.webm",
+          "sha256": "641f0273f775ce7d0662cf4c392929bd01e386cd5cedcab7bb067e24eac5842e",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 18,
+          "durationSeconds": 3.0
+        },
+        {
+          "name": "向右跑",
+          "file": "pet-packs/codex-ayaka/animations/向右跑.webm",
+          "sha256": "119bc1345e549d2e8c5b3fec14bb17aa2584fb5b65b83dbcef720670cf338ad8",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 24,
+          "durationSeconds": 3.0
+        },
+        {
+          "name": "向左跑",
+          "file": "pet-packs/codex-ayaka/animations/向左跑.webm",
+          "sha256": "fe558ab2845411d8af3e77f30ac3d45cfd59f1656289de2862f8683550238129",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 24,
+          "durationSeconds": 3.0
+        },
+        {
+          "name": "挥手",
+          "file": "pet-packs/codex-ayaka/animations/挥手.webm",
+          "sha256": "420e60df47f0b7ad38b00d97f087b74f9a9d01abac0d83202c9dec3db6d28661",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 8,
+          "durationSeconds": 1.334
+        },
+        {
+          "name": "跳跃",
+          "file": "pet-packs/codex-ayaka/animations/跳跃.webm",
+          "sha256": "e6da2960aab74878c3ecca91e8277ff2aaa00db6ce49389f7941957912a14e81",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 10,
+          "durationSeconds": 1.25
+        },
+        {
+          "name": "失落",
+          "file": "pet-packs/codex-ayaka/animations/失落.webm",
+          "sha256": "957b197c4cf3573ee620457a5e0a0812b6b1241c9e6024b8531d4bf9e8db7bdc",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 16,
+          "durationSeconds": 2.667
+        },
+        {
+          "name": "等待",
+          "file": "pet-packs/codex-ayaka/animations/等待.webm",
+          "sha256": "ce44f890a77c7e632518b2c80968682b18ebdbed27b3227d7b99b47305fbf49a",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 12,
+          "durationSeconds": 3.0
+        },
+        {
+          "name": "工作",
+          "file": "pet-packs/codex-ayaka/animations/工作.webm",
+          "sha256": "fad173052f9505e103fe3c6e66b473b47b893f305086f97723d017b205871e70",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 18,
+          "durationSeconds": 3.0
+        },
+        {
+          "name": "检视",
+          "file": "pet-packs/codex-ayaka/animations/检视.webm",
+          "sha256": "1840b9df8189b57b5c7b0e12012763daa34cafa662f2446612d3bf4ec40978c9",
+          "codec": "vp9",
+          "width": 640,
+          "height": 360,
+          "alpha": true,
+          "frames": 12,
+          "durationSeconds": 2.4
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "pet-packs/ATTRIBUTION.md",
+      "bytes": 1077,
+      "sha256": "27160056daaeabb93fb5c2ce1dbcbc6c7817de26a0039c7b390fc276ddc00dd7"
+    },
+    {
+      "path": "pet-packs/codex-acheron/animations/向右跑.webm",
+      "bytes": 599371,
+      "sha256": "fe4f5c4d59f3196414712e17c40e6ac75cc375f02634e3a5011a463995d3f00b"
+    },
+    {
+      "path": "pet-packs/codex-acheron/animations/向左跑.webm",
+      "bytes": 587052,
+      "sha256": "5f3718d75564ea996a2279a5121b8916facd80b686032531a9915a97acb9bc7b"
+    },
+    {
+      "path": "pet-packs/codex-acheron/animations/失落.webm",
+      "bytes": 236617,
+      "sha256": "546410b0a2d136642a85cbcf4d3d23ecdd6872624a0edae1bc74831dfc7c753a"
+    },
+    {
+      "path": "pet-packs/codex-acheron/animations/工作.webm",
+      "bytes": 401987,
+      "sha256": "804ef2dbbc9d8575c157faab892a95c8efc2b59f5b473aca6246151bca3ac973"
+    },
+    {
+      "path": "pet-packs/codex-acheron/animations/待机.webm",
+      "bytes": 440186,
+      "sha256": "f9f3a51eb30f45f3bb3950e5d1f2b28f3520c18899ca4eb9871d55649cef4e45"
+    },
+    {
+      "path": "pet-packs/codex-acheron/animations/挥手.webm",
+      "bytes": 236483,
+      "sha256": "7b96729b83e21f4717b900c9e943c20c0f5db4616c2bd8202111da97190f368e"
+    },
+    {
+      "path": "pet-packs/codex-acheron/animations/检视.webm",
+      "bytes": 233996,
+      "sha256": "5050119a632eced056826cc0647b090cc846ed5a8e5fd6be35e70445463b4148"
+    },
+    {
+      "path": "pet-packs/codex-acheron/animations/等待.webm",
+      "bytes": 244377,
+      "sha256": "94dbc1569c6b941c3c5a7adb9fd4c836fae249b9a4b146819faa62569a7fb8f4"
+    },
+    {
+      "path": "pet-packs/codex-acheron/animations/跳跃.webm",
+      "bytes": 265154,
+      "sha256": "ddf0faf01da388aec7579e940950dc76f489be26b85a59f624d88a1bdb598b24"
+    },
+    {
+      "path": "pet-packs/codex-acheron/avatar.png",
+      "bytes": 106887,
+      "sha256": "74037ceafb62ae1e4f64b575eea970969d7bb1d3fce07f85ee06b5eaecb08723"
+    },
+    {
+      "path": "pet-packs/codex-acheron/config.jsonc",
+      "bytes": 2281,
+      "sha256": "4e5d815c5d86a01b75540430019b0590b4955fce5c1dceb7af438550f0a57a04"
+    },
+    {
+      "path": "pet-packs/codex-ayaka/animations/向右跑.webm",
+      "bytes": 782335,
+      "sha256": "119bc1345e549d2e8c5b3fec14bb17aa2584fb5b65b83dbcef720670cf338ad8"
+    },
+    {
+      "path": "pet-packs/codex-ayaka/animations/向左跑.webm",
+      "bytes": 771864,
+      "sha256": "fe558ab2845411d8af3e77f30ac3d45cfd59f1656289de2862f8683550238129"
+    },
+    {
+      "path": "pet-packs/codex-ayaka/animations/失落.webm",
+      "bytes": 559572,
+      "sha256": "957b197c4cf3573ee620457a5e0a0812b6b1241c9e6024b8531d4bf9e8db7bdc"
+    },
+    {
+      "path": "pet-packs/codex-ayaka/animations/工作.webm",
+      "bytes": 511419,
+      "sha256": "fad173052f9505e103fe3c6e66b473b47b893f305086f97723d017b205871e70"
+    },
+    {
+      "path": "pet-packs/codex-ayaka/animations/待机.webm",
+      "bytes": 440022,
+      "sha256": "641f0273f775ce7d0662cf4c392929bd01e386cd5cedcab7bb067e24eac5842e"
+    },
+    {
+      "path": "pet-packs/codex-ayaka/animations/挥手.webm",
+      "bytes": 241783,
+      "sha256": "420e60df47f0b7ad38b00d97f087b74f9a9d01abac0d83202c9dec3db6d28661"
+    },
+    {
+      "path": "pet-packs/codex-ayaka/animations/检视.webm",
+      "bytes": 371414,
+      "sha256": "1840b9df8189b57b5c7b0e12012763daa34cafa662f2446612d3bf4ec40978c9"
+    },
+    {
+      "path": "pet-packs/codex-ayaka/animations/等待.webm",
+      "bytes": 359287,
+      "sha256": "ce44f890a77c7e632518b2c80968682b18ebdbed27b3227d7b99b47305fbf49a"
+    },
+    {
+      "path": "pet-packs/codex-ayaka/animations/跳跃.webm",
+      "bytes": 365587,
+      "sha256": "e6da2960aab74878c3ecca91e8277ff2aaa00db6ce49389f7941957912a14e81"
+    },
+    {
+      "path": "pet-packs/codex-ayaka/avatar.png",
+      "bytes": 49812,
+      "sha256": "496b23172b5e66b0d926a4946b62ccf3340da4ce98d146bd11181cb6c29a1767"
+    },
+    {
+      "path": "pet-packs/codex-ayaka/config.jsonc",
+      "bytes": 2279,
+      "sha256": "4c14f9d749eba5db8b51fa5b7a9f557a5ca77824437e5e92f9aa7226d70f1527"
+    },
+    {
+      "path": "pet-packs/codex-firefly/animations/向右跑.webm",
+      "bytes": 747784,
+      "sha256": "7572b9e92da5bacc52687e48a3d1f4ab5a80759664c9bb0ed79d02186e975ee1"
+    },
+    {
+      "path": "pet-packs/codex-firefly/animations/向左跑.webm",
+      "bytes": 720055,
+      "sha256": "384378c6b1b0f5cd21cc7344bf0197fcb9ef2a07c8a9c7736074ca2ab630514a"
+    },
+    {
+      "path": "pet-packs/codex-firefly/animations/失落.webm",
+      "bytes": 608127,
+      "sha256": "63f7fe8590019736f440d7db802a8c72c045761f06d89d9946da5005eb9ca984"
+    },
+    {
+      "path": "pet-packs/codex-firefly/animations/工作.webm",
+      "bytes": 512180,
+      "sha256": "9bbe885e00e1e06eceb15e7b636d4887975fa4c54ef55795c0e484803a43641e"
+    },
+    {
+      "path": "pet-packs/codex-firefly/animations/待机.webm",
+      "bytes": 501725,
+      "sha256": "a974a152ffc33695ae0305bac4d6dcfe9e3992209bd9b54f5e4c3e3afe28dda4"
+    },
+    {
+      "path": "pet-packs/codex-firefly/animations/挥手.webm",
+      "bytes": 236672,
+      "sha256": "be9d2efa7a25495418b623c961d9063d08ad0076a5779742e43f617069c8d207"
+    },
+    {
+      "path": "pet-packs/codex-firefly/animations/检视.webm",
+      "bytes": 394685,
+      "sha256": "38e481a304045bb72207453e687b472dfec1cbed1067d6e36ea63c7f55b994c6"
+    },
+    {
+      "path": "pet-packs/codex-firefly/animations/等待.webm",
+      "bytes": 378697,
+      "sha256": "9ad360d776a1bfce469f93788324b3beefec3cfd812f954d0a5852160883ab03"
+    },
+    {
+      "path": "pet-packs/codex-firefly/animations/跳跃.webm",
+      "bytes": 341506,
+      "sha256": "0cad687d21d63599c23c3407ae06a153083350897fb233b076af0ee18b601938"
+    },
+    {
+      "path": "pet-packs/codex-firefly/avatar.png",
+      "bytes": 52881,
+      "sha256": "897634c9412a7eccd9bd2f43106fbc53a7165e4c7e406ce433b057460e8ab053"
+    },
+    {
+      "path": "pet-packs/codex-firefly/config.jsonc",
+      "bytes": 2284,
+      "sha256": "da4faaf6c91132354a23d04f1c27c89b7ad4bd5db3c2fd6400d471c377fd5137"
+    },
+    {
+      "path": "sources/acheron-hd/animation-manifest.json",
+      "bytes": 6675,
+      "sha256": "ba7787a07b89c802a00ffa229c236948c12e879dae293234cea2bce00dd3fb25"
+    },
+    {
+      "path": "sources/acheron-hd/character-master.png",
+      "bytes": 1337131,
+      "sha256": "1e1f70ef1fe0c23fbd716e2b8d98ced74dce96e2c8448275841140a6960754df"
+    },
+    {
+      "path": "sources/acheron-hd/design-brief.txt",
+      "bytes": 886,
+      "sha256": "ee1ff15eefbe364062a2ba64e6e4138fc4f943d403a0f95a3da2427c367d8368"
+    },
+    {
+      "path": "sources/acheron-hd/failed-sheet.png",
+      "bytes": 2185243,
+      "sha256": "81f14fb5fb670a1c5f40e593792a288d6076a035dccf1cf92717c3eaa00fcbcc"
+    },
+    {
+      "path": "sources/acheron-hd/idle-sheet.png",
+      "bytes": 2148271,
+      "sha256": "24ab6f8ab97ad1eadf5cb22ac5ba8f6a89402b73315157c066a4162c0311247b"
+    },
+    {
+      "path": "sources/acheron-hd/jump-sheet.png",
+      "bytes": 2203036,
+      "sha256": "23d0dba66b5eb75ad7547c327d9a416664baf461a906f442d2b5f7aaa414e353"
+    },
+    {
+      "path": "sources/acheron-hd/prompt-master.txt",
+      "bytes": 1882,
+      "sha256": "085e3f2db594ecf946e19421470589b2e8e824563d59ce7ac4cbaf1d5adcf321"
+    },
+    {
+      "path": "sources/acheron-hd/prompts-additional-actions.txt",
+      "bytes": 13106,
+      "sha256": "07d513ea30f0fca90106e635cf4569531411f64ad477d130ce4cb1d2d6d27dd2"
+    },
+    {
+      "path": "sources/acheron-hd/prompts-initial-actions.txt",
+      "bytes": 6111,
+      "sha256": "5d9189d24a86c7213b05185247c473df05b7be8479a21d651938b87f821c725d"
+    },
+    {
+      "path": "sources/acheron-hd/review-sheet.png",
+      "bytes": 2111855,
+      "sha256": "990c51600809b6f2bac8cbbaec6693e4a6f95b1de0ff55018ad754ae9b724324"
+    },
+    {
+      "path": "sources/acheron-hd/waiting-sheet.png",
+      "bytes": 2217359,
+      "sha256": "9320ba5987076d7cf577fa010efeb4b797e4b3fcfa1373d53b00f1593859f684"
+    },
+    {
+      "path": "sources/acheron-hd/walk-left-sheet.png",
+      "bytes": 2165448,
+      "sha256": "1370676971a7f48f467cbcb28e3d1b4ef3093071ec6405fb08b069c9f0518eb5"
+    },
+    {
+      "path": "sources/acheron-hd/walk-right-sheet.png",
+      "bytes": 2166336,
+      "sha256": "0fa033ee58be3935fcccff9cdf17436be2a372af105e687e319aa6d739d0ad12"
+    },
+    {
+      "path": "sources/acheron-hd/wave-sheet.png",
+      "bytes": 2184665,
+      "sha256": "e628ab2d2b9a810db0ec63e4ea571b53651510f4334ed83848683cbb2b77819b"
+    },
+    {
+      "path": "sources/acheron-hd/working-sheet.png",
+      "bytes": 2204572,
+      "sha256": "7a0414d0fd31a8b5eed376037b1fa41ed51177a09e04d5fe50930577812deb7b"
+    }
+  ],
+  "totalBytes": 33260014
+}

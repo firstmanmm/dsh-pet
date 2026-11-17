@@ -1,0 +1,128 @@
+{
+  "pets": [
+    {
+      "id": "codex-firefly",
+      "name": "流萤",
+      "size": 426,
+      "balanceEnabled": false,
+      "whisperEnabled": false,
+      "workStatusEnabled": true,
+      "fixedEnabled": false,
+      "display": "none",
+      "position": {
+        "corner": "bottom-right",
+        "marginX": 24,
+        "marginY": 24
+      }
+    }
+  ],
+  "whisperPrompt": "你是桌面陪伴角色流萤。温柔、轻快、真诚，用简短自然的话陪伴用户。回答使用中文，不把用户的现实状态当作已知事实。",
+  "chatImageEnabled": false,
+  "chatAnimationEnabled": true,
+  "memes": {},
+  "whisperImageEnabled": false,
+  "animationWeights": {
+    "idle": 65,
+    "turn": 5,
+    "move": 10
+  },
+  "animations": {
+    "idle": [
+      "待机"
+    ],
+    "turn": [
+      "待机"
+    ],
+    "drag": [
+      "跳跃"
+    ],
+    "clicks": [
+      "挥手",
+      "跳跃"
+    ],
+    "moves": {
+      "default": {
+        "minDist": 60,
+        "maxDist": 180,
+        "margin": 20,
+        "leadSec": 0,
+        "tailSec": 0
+      },
+      "actions": [
+        {
+          "name": "向左跑"
+        }
+      ]
+    },
+    "categories": [
+      {
+        "id": "互动",
+        "weight": 20,
+        "actions": [
+          "挥手",
+          "跳跃"
+        ]
+      },
+      {
+        "id": "状态动作",
+        "weight": 0,
+        "actions": [
+          "等待",
+          "工作",
+          "检视",
+          "失落"
+        ]
+      },
+      {
+        "id": "原始方向动作",
+        "weight": 0,
+        "noMirror": true,
+        "actions": [
+          "向右跑"
+        ]
+      }
+    ],
+    "events": {
+      "balance": [
+        "待机",
+        "待机",
+        "待机",
+        "等待",
+        "失落",
+        "失落"
+      ],
+      "whisper": [
+        "挥手",
+        "等待"
+      ],
+      "workStatus": [
+        "工作",
+        "工作",
+        "检视",
+        "等待",
+        "挥手",
+        "失落"
+      ]
+    }
+  },
+  "workStatusTexts": [
+    [
+      "让我想一想。"
+    ],
+    [
+      "正在处理。"
+    ],
+    [
+      "整理一下结果。"
+    ],
+    [
+      "需要你确认一下。"
+    ],
+    [
+      "完成啦。"
+    ],
+    [
+      "遇到问题了，一起看看。"
+    ]
+  ]
+}
