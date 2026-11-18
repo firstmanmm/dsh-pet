@@ -22,17 +22,15 @@
   "memes": {},
   "whisperImageEnabled": false,
   "animationWeights": {
-    "idle": 65,
-    "turn": 5,
-    "move": 10
+    "idle": 78,
+    "turn": 0,
+    "move": 14
   },
   "animations": {
     "idle": [
       "待机"
     ],
-    "turn": [
-      "待机"
-    ],
+    "turn": [],
     "drag": [
       "跳跃"
     ],
@@ -42,8 +40,8 @@
     ],
     "moves": {
       "default": {
-        "minDist": 60,
-        "maxDist": 180,
+        "minDist": 90,
+        "maxDist": 115,
         "margin": 20,
         "leadSec": 0,
         "tailSec": 0
@@ -51,6 +49,13 @@
       "actions": [
         {
           "name": "向左跑"
+        },
+        {
+          "name": "向右跑",
+          "params": {
+            "minDist": -115,
+            "maxDist": -90
+          }
         }
       ]
     },
@@ -78,15 +83,16 @@
         "weight": 0,
         "noMirror": true,
         "actions": [
+          "向左跑",
           "向右跑"
         ]
       }
     ],
     "events": {
       "balance": [
-        "待机",
-        "待机",
-        "待机",
+        "等待",
+        "等待",
+        "等待",
         "等待",
         "失落",
         "失落"

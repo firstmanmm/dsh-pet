@@ -1,6 +1,6 @@
 # dsh-pet 🐾
 
-本 fork 的黄泉高清版、流萤与神里绫华宠物包：见 [安装与重建说明](PET-PACKS.md)。
+本 fork 的黄泉、流萤与神里绫华高清宠物包：见 [安装与重建说明](PET-PACKS.md)。
 
 <p align="center">
   <a href="https://www.npmjs.com/package/dsh-pet"><img alt="npm version" src="https://img.shields.io/npm/v/dsh-pet?label=npm&color=blue"></a>

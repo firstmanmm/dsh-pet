@@ -1,0 +1,13 @@
+神里绫华高清桌宠素材
+
+生成方式：内置 imagegen。不是像素放大，也不是静态立绘平移；九组动作均由六个不同的真实姿态构成。
+角色身份参考：pet-packs/codex-ayaka/avatar.png，对应原素材 ID kamisato-ayaka--lingxiaotian。
+绘制风格参考：sources/acheron-hd/character-master.png。新角色统一使用清晰动漫线条、赛璐璐阴影及约 2.4 头身 Q 版比例。
+主图：character-master.png，1254×1254 透明 PNG。九张动作图：1536×1024、三列两行、每格 512×512，共 54 个源姿态。
+完整生成提示词保存在 prompt-master.txt 和 prompts-actions.txt；失落动作第一次透明背景失败，已通过内置 imagegen 单独修复，修复提示词也保留。
+动作包含待机眨眼、挥手、向左跑、向右跑、跳跃、失落、等待、工作、检视。除跑动循环外，每组起止尽量回到同一个自然待机姿态，便于动作切换。
+配准：原始图不修改。animation-manifest.json 记录同动作统一缩放和逐帧平移。普通动作以脚底居中并保持 y=472；跑动以腰部定位、保持合理上下起伏；跳跃只校正横向漂移，保留原始离地高度。
+透明检查：54 个源帧均通过 prepare-hd-pet.py 的格边界、可见主体与透明区域检查。主体外的微量 alpha 为 1–2，编码管线按既定阈值清除；完整检查数值见 source-inspection.json。
+这些是风格一致的低帧数手绘动作，不承诺视频插帧式的高帧率运动；最终循环与切换视觉表现由构建后的透明视频及 Harness 实机测试确认。
+
+身份参考头像来自起始 Git 提交 abe94bee8da4536a70d9a463968c898d49431b95 的 pet-packs/codex-ayaka/avatar.png；该安装头像现已更新为本目录高清基准图。

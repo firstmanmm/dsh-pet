@@ -1,0 +1,10 @@
+流萤高清 2D Q 版桌宠；身份参考 pet-packs/codex-firefly/avatar.png，画风参考 sources/acheron-hd/character-master.png。
+使用内置 imagegen 生成角色基准与九组独立动作，每组真实六姿态，全部透明 RGBA 1536×1024 动作图。
+保留银灰长发、薄荷发梢、深色头箍、白绿羽状发饰、绿色眼睛、金领结、白绿裙装和短靴。
+非循环动作从中立进入并回到中立；待机眨眼停留，跑动按连续六相位循环。
+动画配准不改变单帧比例：每动作仅统一缩放。普通动作以脚底中点对齐；跑动用头顶稳定截面水平配准，保留腿部步态；跳跃保留真实垂直抬升。
+source-inspection.json 保留原图测量和配准参数，animation-manifest.json 可交由现有 prepare-hd-pet.py 编码。
+图像透明区存在 alpha≤2 的微量生成噪声，已通过 prepare-hd-pet.py inspect 校验，编码管线使用原有≤3清理阈值。
+完整生成提示词见 prompt-master.txt 与 prompts-actions.txt。此文件不另行授予原角色或上游素材权利。
+
+身份参考头像来自起始 Git 提交 abe94bee8da4536a70d9a463968c898d49431b95 的 pet-packs/codex-firefly/avatar.png；该安装头像现已更新为本目录高清基准图。

@@ -15,6 +15,8 @@ from pathlib import Path
 
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 
+from idle_rig import IdleRig, finite_number
+
 CANVAS = (640, 360)
 TARGET = (204, 54, 436, 330)
 ALPHA_THRESHOLD = 16
@@ -153,6 +155,36 @@ def contact_sheet(actions, output: Path):
     sheet.save(output)
 
 
+def placement(spec, actions, union, target_box):
+    """计算共享比例和身体轴位置；显式比例越界时要求扩大目标框。"""
+    scale = min((target_box[2] - target_box[0]) / (union[2] - union[0]),
+                (target_box[3] - target_box[1]) / (union[3] - union[1]))
+    if 'standing_scale' in spec:
+        scale = finite_number(spec['standing_scale'], 'standing_scale', .05, 4)
+    offset_x = (target_box[0] + target_box[2]) / 2 - ((union[0] + union[2]) / 2) * scale
+    anchor = spec.get('standing_anchor')
+    if anchor is not None:
+        if not isinstance(anchor, dict):
+            raise ValueError('standing_anchor must be a mapping')
+        action = next((a for a in actions if a['name'] == anchor.get('animation')), None)
+        if action is None:
+            raise ValueError('standing_anchor animation must name an existing action')
+        index = anchor.get('frame', 0)
+        if isinstance(index, bool) or not isinstance(index, int) or not 0 <= index < len(action['cells']):
+            raise ValueError('standing_anchor frame must name an existing source frame')
+        source_x = finite_number(anchor.get('source_x'), 'standing_anchor source_x', 0, action['cells'][index].width)
+        target_x = finite_number(anchor.get('target_x', CANVAS[0] / 2), 'standing_anchor target_x', 0, CANVAS[0])
+        origin_x = action['scale_origin'][0]
+        axis = ((source_x + action['frame_offsets'][index][0] - origin_x) * action['action_scale'] + origin_x)
+        offset_x = target_x - axis * action['source_factor'] * scale
+    offset_y = target_box[3] - union[3] * scale
+    projected = [union[0] * scale + offset_x, union[1] * scale + offset_y,
+                 union[2] * scale + offset_x, union[3] * scale + offset_y]
+    if any(projected[i] < target_box[i] - 4 for i in (0, 1)) or any(projected[i] > target_box[i] + 4 for i in (2, 3)):
+        raise ValueError('standing_scale/standing_anchor places artwork outside target_box; widen target_box explicitly')
+    return scale, offset_x, offset_y
+
+
 def build(args):
     if shutil.which('ffmpeg') is None or shutil.which('ffprobe') is None:
         raise ValueError('ffmpeg and ffprobe must be on PATH')
@@ -170,7 +202,7 @@ def build(args):
     canonical = Image.open(canonical_path).convert('RGBA')
     canonical_info = rgba_info(canonical, canonical_path.name)
     canonical = clean_alpha_noise(canonical)
-    actions, names, aspect = [], set(), None
+    actions, names = [], set()
     union = None
     reference_size = None
     quality_warnings = []
@@ -184,10 +216,8 @@ def build(args):
         if len(cells) < 2 or len({i['rgba_sha256'] for i in info}) < 2:
             raise ValueError(f'{name}: supply at least two genuinely distinct generated poses')
         width, height = cells[0].size
-        if aspect is None:
-            aspect, reference_size = width / height, (width, height)
-        elif abs(width / height - aspect) > .001:
-            raise ValueError(f'{name}: all action cells must have the same aspect ratio')
+        if reference_size is None:
+            reference_size = (width, height)
         action_scale = float(entry.get('action_scale', 1))
         origin = entry.get('scale_origin', [width / 2, height / 2])
         offsets = entry.get('frame_offsets', [[0, 0] for _ in cells])
@@ -211,7 +241,7 @@ def build(args):
             quality_warnings.append(f'{name}: at least one source pose has fewer than 280 artwork pixels in height')
         if any(i['outside_core_15px_attention'] for i in info):
             quality_warnings.append(f'{name}: alpha>3 content exists more than15px outside the opaque core; inspect source')
-        fps, loops = float(entry.get('fps', 6)), int(entry.get('loops', 3))
+        fps, loops = float(entry.get('fps', 30 if 'idle_rig' in entry else 6)), int(entry.get('loops', 3))
         if not 1 <= fps <= 60 or not 1 <= loops <= 20:
             raise ValueError(f'{name}: fps must be 1..60 and loops 1..20')
         holds = entry.get('frame_holds', [1] * len(cells))
@@ -220,13 +250,10 @@ def build(args):
         actions.append({'name': name, 'path': path, 'cells': cells, 'info': info,
                         'fps': fps, 'loops': loops, 'source_factor': factor,
                         'action_scale': action_scale, 'scale_origin': origin, 'frame_offsets': offsets,
-                        'frame_holds': holds})
+                        'frame_holds': holds, 'idle_rig': entry.get('idle_rig')})
     if not actions:
         raise ValueError('No animations')
-    scale = min((target_box[2] - target_box[0]) / (union[2] - union[0]),
-                (target_box[3] - target_box[1]) / (union[3] - union[1]))
-    offset_x = (target_box[0] + target_box[2]) / 2 - ((union[0] + union[2]) / 2) * scale
-    offset_y = target_box[3] - union[3] * scale
+    scale, offset_x, offset_y = placement(spec, actions, union, target_box)
     out.mkdir(parents=True, exist_ok=True)
     video_dir = out / 'animations'
     video_dir.mkdir(exist_ok=True)
@@ -235,6 +262,7 @@ def build(args):
               'canvas': list(CANVAS), 'target': list(target_box), 'scale': scale,
               'alpha_noise_cutoff': CLEAN_ALPHA_THRESHOLD, 'geometry_alpha_threshold': ALPHA_THRESHOLD,
               'normalized_source_union': union, 'offset': [offset_x, offset_y],
+              'standing_anchor': spec.get('standing_anchor'), 'standing_scale': spec.get('standing_scale'),
               'quality_warnings': quality_warnings, 'animations': []}
     canonical.save(out / 'canonical.png')
     for action in actions:
@@ -253,10 +281,23 @@ def build(args):
                            action['source_factor'] * scale for i in range(2)]
             canvas.paste(resized, (round(offset_x + translation[0]), round(offset_y + translation[1])))
             rendered.append(canvas)
-        held_sequence = [index for index, hold in enumerate(action['frame_holds']) for _ in range(hold)]
-        count = len(held_sequence) * action['loops']
-        for index in range(count):
-            rendered[held_sequence[index % len(held_sequence)]].save(frame_dir / f'{index:04d}.png')
+        rig = IdleRig(rendered, action['idle_rig'], action['fps']) if action['idle_rig'] is not None else None
+        if rig:
+            count = rig.count
+            samples = sorted({0, count // 8, count // 2, count * 3 // 4, count - 1,
+                              round(rig.centers[0] * action['fps']) if rig.centers else count // 4})
+            rendered = []
+            for index in range(count):
+                frame = rig.frame(index)
+                frame.save(frame_dir / f'{index:04d}.png')
+                if index in samples:
+                    rendered.append(frame)
+        else:
+            held_sequence = [index for index, hold in enumerate(action['frame_holds']) for _ in range(hold)]
+            count = len(held_sequence) * action['loops']
+            samples = [sum(action['frame_holds'][:index]) for index in range(len(rendered))]
+            for index in range(count):
+                rendered[held_sequence[index % len(held_sequence)]].save(frame_dir / f'{index:04d}.png')
         target = video_dir / f"{action['name']}.webm"
         subprocess.run([
             'ffmpeg', '-hide_banner', '-loglevel', 'error', '-y',
@@ -268,8 +309,13 @@ def build(args):
         action['rendered'] = rendered
         report['animations'].append({'name': action['name'], 'source': str(action['path']),
                                      'source_sha256': sha(action['path']), 'source_frames': action['info'],
+                                     'source_frame_count': len(action['cells']), 'rendered_frame_count': count,
+                                     'preview_frame_indices': samples,
                                      'action_scale': action['action_scale'], 'scale_origin': action['scale_origin'],
-                                     'frame_offsets': action['frame_offsets'], 'frame_holds': action['frame_holds'],
+                                     'frame_offsets': action['frame_offsets'],
+                                     'frame_holds': None if rig else action['frame_holds'],
+                                     'loops': 1 if rig else action['loops'],
+                                     'idle_rig': rig.report() if rig else None,
                                      'video': str(target), 'fps': action['fps'], **video_info})
         print(f"{action['name']}: {count} frames, transparency verified", flush=True)
     contact_sheet(actions, out / 'contact-sheet.png')

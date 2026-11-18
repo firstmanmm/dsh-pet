@@ -1,0 +1,499 @@
+{
+  "canonical": "character-master.png",
+  "target_box": [
+    128,
+    40,
+    512,
+    330
+  ],
+  "animations": [
+    {
+      "name": "待机",
+      "image": "idle-sheet.png",
+      "columns": 3,
+      "rows": 2,
+      "frames": 6,
+      "fps": 30,
+      "loops": 1,
+      "action_scale": 1.0,
+      "scale_origin": [
+        256,
+        472
+      ],
+      "frame_offsets": [
+        [
+          -1.0,
+          0
+        ],
+        [
+          0.5,
+          0
+        ],
+        [
+          1.0,
+          0
+        ],
+        [
+          -1.0,
+          1
+        ],
+        [
+          1.0,
+          0
+        ],
+        [
+          1.0,
+          0
+        ]
+      ],
+      "first_source_body_height": 451,
+      "idle_rig": {
+        "duration_seconds": 8,
+        "base_frame": 0,
+        "breath": {
+          "cycles": 2,
+          "lift_px": 1.8,
+          "head_bottom_y": 178,
+          "lock_y": 261
+        },
+        "blink": {
+          "frames": [
+            1,
+            2
+          ],
+          "roi": [
+            291,
+            145,
+            351,
+            173
+          ],
+          "centers_seconds": [
+            2.2,
+            6.5
+          ],
+          "duration_seconds": 0.2,
+          "feather_px": 2
+        }
+      }
+    },
+    {
+      "name": "挥手",
+      "image": "wave-sheet.png",
+      "columns": 3,
+      "rows": 2,
+      "frames": 6,
+      "fps": 8,
+      "loops": 1,
+      "frame_holds": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "action_scale": 0.9933920704845814,
+      "scale_origin": [
+        256,
+        472
+      ],
+      "frame_offsets": [
+        [
+          -0.5,
+          0
+        ],
+        [
+          -0.5,
+          0
+        ],
+        [
+          -0.5,
+          0
+        ],
+        [
+          -0.5,
+          0
+        ],
+        [
+          0.0,
+          0
+        ],
+        [
+          -0.5,
+          0
+        ]
+      ],
+      "first_source_body_height": 454
+    },
+    {
+      "name": "向左跑",
+      "image": "walk-left-v2-sheet.png",
+      "columns": 4,
+      "rows": 2,
+      "frames": 8,
+      "fps": 12,
+      "loops": 3,
+      "frame_holds": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "action_scale": 0.7368708971553611,
+      "scale_origin": [
+        0,
+        0
+      ],
+      "frame_offsets": [
+        [
+          86.0542,
+          3.7024
+        ],
+        [
+          118.4342,
+          5.4098
+        ],
+        [
+          118.2734,
+          7.1172
+        ],
+        [
+          118.086,
+          10.532
+        ],
+        [
+          86.6912,
+          13.9468
+        ],
+        [
+          118.0134,
+          8.8246
+        ],
+        [
+          118.3264,
+          7.1172
+        ],
+        [
+          118.1486,
+          5.4098
+        ]
+      ],
+      "first_source_body_height": 457
+    },
+    {
+      "name": "向右跑",
+      "image": "walk-right-v2-sheet.png",
+      "columns": 4,
+      "rows": 2,
+      "frames": 8,
+      "fps": 12,
+      "loops": 3,
+      "frame_holds": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "action_scale": 0.8792428198433421,
+      "scale_origin": [
+        0,
+        0
+      ],
+      "frame_offsets": [
+        [
+          -4.5047,
+          -35.3808
+        ],
+        [
+          0.3171,
+          -35.3808
+        ],
+        [
+          -3.174,
+          -35.3808
+        ],
+        [
+          -2.6303,
+          -35.3808
+        ],
+        [
+          -4.1712,
+          -35.3808
+        ],
+        [
+          0.7878,
+          -35.3808
+        ],
+        [
+          1.0588,
+          -35.3808
+        ],
+        [
+          -2.6222,
+          -35.3808
+        ]
+      ],
+      "first_source_body_height": 383
+    },
+    {
+      "name": "跳跃",
+      "image": "jump-sheet.png",
+      "columns": 3,
+      "rows": 2,
+      "frames": 6,
+      "fps": 10,
+      "loops": 1,
+      "frame_holds": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "action_scale": 1.0,
+      "scale_origin": [
+        256,
+        472
+      ],
+      "frame_offsets": [
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ],
+        [
+          23.5,
+          0
+        ],
+        [
+          0.0,
+          0
+        ],
+        [
+          -0.5,
+          0
+        ],
+        [
+          31.5,
+          0
+        ]
+      ],
+      "first_source_body_height": 451
+    },
+    {
+      "name": "失落",
+      "image": "failed-sheet.png",
+      "columns": 3,
+      "rows": 2,
+      "frames": 6,
+      "fps": 8,
+      "loops": 1,
+      "frame_holds": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        3
+      ],
+      "action_scale": 0.9890350877192983,
+      "scale_origin": [
+        256,
+        472
+      ],
+      "frame_offsets": [
+        [
+          0.0,
+          -2
+        ],
+        [
+          0.0,
+          -2
+        ],
+        [
+          0.0,
+          -2
+        ],
+        [
+          0.0,
+          -2
+        ],
+        [
+          0.0,
+          -2
+        ],
+        [
+          0.0,
+          -2
+        ]
+      ],
+      "first_source_body_height": 456
+    },
+    {
+      "name": "等待",
+      "image": "waiting-sheet.png",
+      "columns": 3,
+      "rows": 2,
+      "frames": 6,
+      "fps": 8,
+      "loops": 1,
+      "frame_holds": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "action_scale": 0.9912087912087912,
+      "scale_origin": [
+        256,
+        472
+      ],
+      "frame_offsets": [
+        [
+          0.5,
+          0
+        ],
+        [
+          0.5,
+          0
+        ],
+        [
+          0.5,
+          0
+        ],
+        [
+          0.0,
+          0
+        ],
+        [
+          0.5,
+          0
+        ],
+        [
+          0.0,
+          0
+        ]
+      ],
+      "first_source_body_height": 455
+    },
+    {
+      "name": "工作",
+      "image": "working-sheet.png",
+      "columns": 3,
+      "rows": 2,
+      "frames": 6,
+      "fps": 8,
+      "loops": 2,
+      "frame_holds": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "action_scale": 0.9912087912087912,
+      "scale_origin": [
+        256,
+        472
+      ],
+      "frame_offsets": [
+        [
+          0.0,
+          -1
+        ],
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          -1
+        ],
+        [
+          0.0,
+          -1
+        ],
+        [
+          0.0,
+          -1
+        ]
+      ],
+      "first_source_body_height": 455
+    },
+    {
+      "name": "检视",
+      "image": "review-sheet.png",
+      "columns": 3,
+      "rows": 2,
+      "frames": 6,
+      "fps": 8,
+      "loops": 1,
+      "frame_holds": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        3
+      ],
+      "action_scale": 1.0,
+      "scale_origin": [
+        256,
+        472
+      ],
+      "frame_offsets": [
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          1
+        ],
+        [
+          0.0,
+          1
+        ],
+        [
+          0.0,
+          1
+        ]
+      ],
+      "first_source_body_height": 451
+    }
+  ],
+  "standing_scale": 0.5961208564888925,
+  "standing_anchor": {
+    "animation": "待机",
+    "frame": 0,
+    "source_x": 257,
+    "target_x": 320
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "key": "idle",
+    "name": "待机",
+    "fps": 12,
+    "loops": 2,
+    "holds": [
+      18,
+      1,
+      1,
+      1,
+      12,
+      8
+    ]
+  },
+  {
+    "key": "wave",
+    "name": "挥手",
+    "fps": 8,
+    "loops": 1,
+    "holds": [
+      2,
+      1,
+      2,
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "walk-left",
+    "name": "向左跑",
+    "fps": 8,
+    "loops": 3,
+    "holds": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "walk-right",
+    "name": "向右跑",
+    "fps": 8,
+    "loops": 3,
+    "holds": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "jump",
+    "name": "跳跃",
+    "fps": 8,
+    "loops": 1,
+    "holds": [
+      2,
+      1,
+      1,
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "failed",
+    "name": "失落",
+    "fps": 8,
+    "loops": 1,
+    "holds": [
+      3,
+      2,
+      2,
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "key": "waiting",
+    "name": "等待",
+    "fps": 8,
+    "loops": 2,
+    "holds": [
+      4,
+      2,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "key": "working",
+    "name": "工作",
+    "fps": 8,
+    "loops": 2,
+    "holds": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "key": "review",
+    "name": "检视",
+    "fps": 8,
+    "loops": 1,
+    "holds": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      3
+    ]
+  }
+]

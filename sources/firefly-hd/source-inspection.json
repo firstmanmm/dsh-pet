@@ -1,0 +1,2018 @@
+{
+  "idle": {
+    "source_frames": [
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          120,
+          14,
+          413,
+          458
+        ],
+        "artwork_dimensions": [
+          293,
+          444
+        ],
+        "opaque_core_bbox": [
+          121,
+          15,
+          412,
+          457
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          266.0,
+          457
+        ],
+        "transparent_fraction": 0.628735,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 19134,
+        "rgba_sha256": "f45cb4e84aac105d0aae9d2abfea7ec28b202bf367df2e27bf5b7b09108b153a"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          121,
+          16,
+          413,
+          458
+        ],
+        "artwork_dimensions": [
+          292,
+          442
+        ],
+        "opaque_core_bbox": [
+          122,
+          17,
+          412,
+          457
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          266.0,
+          457
+        ],
+        "transparent_fraction": 0.636871,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 17722,
+        "rgba_sha256": "9a784fbee5957ae0f0d8d98fab9b6ae7e56ff27b7792be6d45346294a6f2d5d6"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          121,
+          16,
+          413,
+          458
+        ],
+        "artwork_dimensions": [
+          292,
+          442
+        ],
+        "opaque_core_bbox": [
+          122,
+          17,
+          412,
+          457
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          266.0,
+          457
+        ],
+        "transparent_fraction": 0.645054,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 15218,
+        "rgba_sha256": "da2b6eb17f0fa786b98b2efb59ceec1c0281d25cf112e3fe092b820329a30390"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          120,
+          14,
+          414,
+          458
+        ],
+        "artwork_dimensions": [
+          294,
+          444
+        ],
+        "opaque_core_bbox": [
+          121,
+          15,
+          413,
+          457
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          266.0,
+          457
+        ],
+        "transparent_fraction": 0.650684,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 13684,
+        "rgba_sha256": "23d7631eda10754ca04a9c83850feca92879658aaa324705a53cfd0301eb9d21"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          120,
+          15,
+          414,
+          458
+        ],
+        "artwork_dimensions": [
+          294,
+          443
+        ],
+        "opaque_core_bbox": [
+          122,
+          16,
+          413,
+          457
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          266.0,
+          457
+        ],
+        "transparent_fraction": 0.657448,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 12450,
+        "rgba_sha256": "4e8bb8c76fc7df1bda316cbc4b82fae779f7dcfbade583ee147cd1c1ad5c23b8"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          121,
+          15,
+          414,
+          458
+        ],
+        "artwork_dimensions": [
+          293,
+          443
+        ],
+        "opaque_core_bbox": [
+          122,
+          16,
+          413,
+          457
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          266.0,
+          457
+        ],
+        "transparent_fraction": 0.655907,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 12766,
+        "rgba_sha256": "5dcdbf9e986663f0dd476476327a1534a9215d1aca032189b6699280cb656ba6"
+      }
+    ],
+    "registration": "跑动以头顶固定区域x锚点配准，垂直保留原始步态；跳跃只校正水平并保留升降；其他动作按双脚底部中点配准。",
+    "action_scale": 1.0,
+    "frame_offsets": [
+      [
+        -10.0,
+        0
+      ],
+      [
+        -10.0,
+        0
+      ],
+      [
+        -10.0,
+        0
+      ],
+      [
+        -10.0,
+        0
+      ],
+      [
+        -10.0,
+        0
+      ],
+      [
+        -10.0,
+        0
+      ]
+    ]
+  },
+  "wave": {
+    "source_frames": [
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          136,
+          10,
+          420,
+          470
+        ],
+        "artwork_dimensions": [
+          284,
+          460
+        ],
+        "opaque_core_bbox": [
+          137,
+          11,
+          419,
+          469
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          276.5,
+          469
+        ],
+        "transparent_fraction": 0.641487,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 15287,
+        "rgba_sha256": "c9e68e7b9a77b97380730daf343f6e15c1805fb23ab6e3d44eaf7d2ffeefe69d"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          114,
+          10,
+          399,
+          470
+        ],
+        "artwork_dimensions": [
+          285,
+          460
+        ],
+        "opaque_core_bbox": [
+          115,
+          11,
+          398,
+          469
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          255.0,
+          469
+        ],
+        "transparent_fraction": 0.637104,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 16055,
+        "rgba_sha256": "58ccc8e33e3dcc971ebf2b9e250251b264c997671772356958c54dcf150de390"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          90,
+          10,
+          376,
+          470
+        ],
+        "artwork_dimensions": [
+          286,
+          460
+        ],
+        "opaque_core_bbox": [
+          91,
+          11,
+          375,
+          469
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          232.5,
+          469
+        ],
+        "transparent_fraction": 0.628666,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 18665,
+        "rgba_sha256": "f931bec7cffd70a3c44434a39b2fb7642c89bf7b43969837b150c0349a615850"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          134,
+          10,
+          422,
+          469
+        ],
+        "artwork_dimensions": [
+          288,
+          459
+        ],
+        "opaque_core_bbox": [
+          135,
+          11,
+          421,
+          468
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          276.5,
+          468
+        ],
+        "transparent_fraction": 0.612507,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 22418,
+        "rgba_sha256": "f21ed5d1287f4fff9d40635c32fea5874f852cbacbd0f5c43746ea45b9c1b863"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          113,
+          10,
+          399,
+          469
+        ],
+        "artwork_dimensions": [
+          286,
+          459
+        ],
+        "opaque_core_bbox": [
+          114,
+          11,
+          398,
+          468
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          255.0,
+          468
+        ],
+        "transparent_fraction": 0.634987,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 16270,
+        "rgba_sha256": "26b4f69578b161069610d67a2d04b0b1da7e383a20d3689e641356a5fc0431af"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          89,
+          10,
+          378,
+          469
+        ],
+        "artwork_dimensions": [
+          289,
+          459
+        ],
+        "opaque_core_bbox": [
+          90,
+          11,
+          376,
+          469
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          232.5,
+          469
+        ],
+        "transparent_fraction": 0.627522,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 18893,
+        "rgba_sha256": "50643774ad3745797952384a02c1e01f801f1c5b4b25847b1de33548b44125a8"
+      }
+    ],
+    "registration": "跑动以头顶固定区域x锚点配准，垂直保留原始步态；跳跃只校正水平并保留升降；其他动作按双脚底部中点配准。",
+    "action_scale": 0.9650655021834061,
+    "frame_offsets": [
+      [
+        -20.5,
+        -12
+      ],
+      [
+        1.0,
+        -12
+      ],
+      [
+        23.5,
+        -12
+      ],
+      [
+        -20.5,
+        -11
+      ],
+      [
+        1.0,
+        -11
+      ],
+      [
+        23.5,
+        -12
+      ]
+    ]
+  },
+  "walk-left": {
+    "source_frames": [
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          136,
+          16,
+          438,
+          469
+        ],
+        "artwork_dimensions": [
+          302,
+          453
+        ],
+        "opaque_core_bbox": [
+          137,
+          17,
+          437,
+          467
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          172.0,
+          467
+        ],
+        "transparent_fraction": 0.455956,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 65081,
+        "rgba_sha256": "8cc0e206887b09d88803d0222ae60beffd895269f96bdf1e34cfbfee69650c94"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          134,
+          16,
+          446,
+          469
+        ],
+        "artwork_dimensions": [
+          312,
+          453
+        ],
+        "opaque_core_bbox": [
+          135,
+          17,
+          444,
+          468
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          230.5,
+          468
+        ],
+        "transparent_fraction": 0.369781,
+        "outside_core_15px_alpha_max": 3,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 88549,
+        "rgba_sha256": "205bab4de09e7915222ca84e73cb9bdc79fd73b188f856104b673d58b1da02f8"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          127,
+          16,
+          445,
+          466
+        ],
+        "artwork_dimensions": [
+          318,
+          450
+        ],
+        "opaque_core_bbox": [
+          128,
+          17,
+          444,
+          465
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          311.0,
+          465
+        ],
+        "transparent_fraction": 0.365253,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 88884,
+        "rgba_sha256": "53efdc3770a82a367dda04cf94f091fb951c15282008dcc1a45cad7384eee219"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          126,
+          17,
+          446,
+          469
+        ],
+        "artwork_dimensions": [
+          320,
+          452
+        ],
+        "opaque_core_bbox": [
+          127,
+          18,
+          445,
+          468
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          159.5,
+          468
+        ],
+        "transparent_fraction": 0.440819,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 66834,
+        "rgba_sha256": "2d1ff32e40441d8df2135bbd50d0b321131c4fb625496d19f8104387b3f3a5ef"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          131,
+          16,
+          445,
+          470
+        ],
+        "artwork_dimensions": [
+          314,
+          454
+        ],
+        "opaque_core_bbox": [
+          132,
+          17,
+          444,
+          469
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          232.0,
+          469
+        ],
+        "transparent_fraction": 0.351593,
+        "outside_core_15px_alpha_max": 3,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 95197,
+        "rgba_sha256": "64f4af95be542f1441d77b9ae90dfb5b390c81e581b84700202287391619b8d9"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          126,
+          16,
+          445,
+          468
+        ],
+        "artwork_dimensions": [
+          319,
+          452
+        ],
+        "opaque_core_bbox": [
+          127,
+          17,
+          443,
+          467
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          320.0,
+          467
+        ],
+        "transparent_fraction": 0.43829,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 68376,
+        "rgba_sha256": "d7f727fb6b8721c7ccc5e6645aa2c6251b6eca00bb2c8c25f8c227c3c3bffe19"
+      }
+    ],
+    "registration": "跑动以头顶固定区域x锚点配准，垂直保留原始步态；跳跃只校正水平并保留升降；其他动作按双脚底部中点配准。",
+    "action_scale": 0.9822222222222222,
+    "frame_offsets": [
+      [
+        -10.0,
+        -10
+      ],
+      [
+        -9.0,
+        -10
+      ],
+      [
+        -9.5,
+        -10
+      ],
+      [
+        -9.5,
+        -10
+      ],
+      [
+        -9.0,
+        -10
+      ],
+      [
+        -9.5,
+        -10
+      ]
+    ]
+  },
+  "walk-right": {
+    "source_frames": [
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          82,
+          20,
+          403,
+          471
+        ],
+        "artwork_dimensions": [
+          321,
+          451
+        ],
+        "opaque_core_bbox": [
+          83,
+          22,
+          402,
+          469
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          272.0,
+          469
+        ],
+        "transparent_fraction": 0.50639,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 50261,
+        "rgba_sha256": "c33b04baefe77ab6d131d654b3a54314d7afc95f561d57a7aee13fd792816475"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          76,
+          20,
+          398,
+          473
+        ],
+        "artwork_dimensions": [
+          322,
+          453
+        ],
+        "opaque_core_bbox": [
+          78,
+          22,
+          396,
+          471
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          278.5,
+          471
+        ],
+        "transparent_fraction": 0.418968,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 74628,
+        "rgba_sha256": "6fff99d211efd764e84a259608b2c31ac70b1bb8d9253d711430badc212d9679"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          63,
+          20,
+          388,
+          465
+        ],
+        "artwork_dimensions": [
+          325,
+          445
+        ],
+        "opaque_core_bbox": [
+          64,
+          22,
+          386,
+          464
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          188.0,
+          464
+        ],
+        "transparent_fraction": 0.481174,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 58951,
+        "rgba_sha256": "d5f535bda42b47ca246443e0baa0559c0c94ce0f3f3561f9c47872f42cfff627"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          77,
+          21,
+          405,
+          466
+        ],
+        "artwork_dimensions": [
+          328,
+          445
+        ],
+        "opaque_core_bbox": [
+          78,
+          23,
+          403,
+          465
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          269.5,
+          465
+        ],
+        "transparent_fraction": 0.481434,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 54251,
+        "rgba_sha256": "a47b01c3d6782d5aec692873c31ca1fd584322aa0c2e4fc88d814768e3ae7879"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          69,
+          22,
+          398,
+          471
+        ],
+        "artwork_dimensions": [
+          329,
+          449
+        ],
+        "opaque_core_bbox": [
+          70,
+          23,
+          396,
+          470
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          263.5,
+          470
+        ],
+        "transparent_fraction": 0.358173,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 89857,
+        "rgba_sha256": "ff7fca4f4b4450299ae6dbd81d82b3bdb17de7587422a86ebfd22f16c55f20f2"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          66,
+          21,
+          391,
+          470
+        ],
+        "artwork_dimensions": [
+          325,
+          449
+        ],
+        "opaque_core_bbox": [
+          67,
+          23,
+          389,
+          469
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          193.5,
+          469
+        ],
+        "transparent_fraction": 0.513393,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 49993,
+        "rgba_sha256": "e37532ef77197af555927573240e0585f9b62edbd2617e65ee5646574ddabf52"
+      }
+    ],
+    "registration": "跑动以头顶固定区域x锚点配准，垂直保留原始步态；跳跃只校正水平并保留升降；其他动作按双脚底部中点配准。",
+    "action_scale": 0.9888143176733781,
+    "frame_offsets": [
+      [
+        -24.5,
+        -12
+      ],
+      [
+        -17.5,
+        -12
+      ],
+      [
+        -9.0,
+        -12
+      ],
+      [
+        -25.0,
+        -12
+      ],
+      [
+        -17.5,
+        -12
+      ],
+      [
+        -10.5,
+        -12
+      ]
+    ]
+  },
+  "jump": {
+    "source_frames": [
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          125,
+          23,
+          406,
+          463
+        ],
+        "artwork_dimensions": [
+          281,
+          440
+        ],
+        "opaque_core_bbox": [
+          126,
+          24,
+          405,
+          462
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          266.5,
+          462
+        ],
+        "transparent_fraction": 0.695477,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 6172,
+        "rgba_sha256": "e151336ba618941f91c2fdb9fec6a890c2d0eeb63794a204d676531e4373bd63"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          113,
+          41,
+          414,
+          463
+        ],
+        "artwork_dimensions": [
+          301,
+          422
+        ],
+        "opaque_core_bbox": [
+          114,
+          42,
+          412,
+          461
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          259.5,
+          461
+        ],
+        "transparent_fraction": 0.700298,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 6171,
+        "rgba_sha256": "120f29b22889911ff2e72be78a4f08d6653300ed65788697878f77e0151a04b8"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          97,
+          3,
+          398,
+          438
+        ],
+        "artwork_dimensions": [
+          301,
+          435
+        ],
+        "opaque_core_bbox": [
+          98,
+          5,
+          397,
+          437
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          246.5,
+          437
+        ],
+        "transparent_fraction": 0.690449,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 6509,
+        "rgba_sha256": "f3b198e54a69e2bb88e9de88b10c8534736c50eb176904f7ac7d0c14ed7f2a3f"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          108,
+          3,
+          433,
+          414
+        ],
+        "artwork_dimensions": [
+          325,
+          411
+        ],
+        "opaque_core_bbox": [
+          109,
+          5,
+          432,
+          413
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          266.5,
+          413
+        ],
+        "transparent_fraction": 0.691669,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 6724,
+        "rgba_sha256": "46c572cb6b304a7f81cb4775246abc0cf2a4d04f9c5b98c277f19e2651c66208"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          106,
+          40,
+          422,
+          463
+        ],
+        "artwork_dimensions": [
+          316,
+          423
+        ],
+        "opaque_core_bbox": [
+          107,
+          42,
+          421,
+          462
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          259.5,
+          462
+        ],
+        "transparent_fraction": 0.685638,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 7020,
+        "rgba_sha256": "481c9f88183f1212697af06713be68c25a0f8aed4d5a498e9c3c92fc419eaa77"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          108,
+          24,
+          393,
+          463
+        ],
+        "artwork_dimensions": [
+          285,
+          439
+        ],
+        "opaque_core_bbox": [
+          109,
+          25,
+          392,
+          462
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          250.5,
+          462
+        ],
+        "transparent_fraction": 0.689095,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 6556,
+        "rgba_sha256": "99582d1a08323de9cb0bad86e16f94fffe381fff5acf40baffdb9e2a0035717c"
+      }
+    ],
+    "registration": "跑动以头顶固定区域x锚点配准，垂直保留原始步态；跳跃只校正水平并保留升降；其他动作按双脚底部中点配准。",
+    "action_scale": 1.0091324200913243,
+    "frame_offsets": [
+      [
+        -10.5,
+        -5
+      ],
+      [
+        -3.5,
+        -5
+      ],
+      [
+        9.5,
+        -5
+      ],
+      [
+        -10.5,
+        -5
+      ],
+      [
+        -3.5,
+        -5
+      ],
+      [
+        5.5,
+        -5
+      ]
+    ]
+  },
+  "failed": {
+    "source_frames": [
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          122,
+          14,
+          407,
+          474
+        ],
+        "artwork_dimensions": [
+          285,
+          460
+        ],
+        "opaque_core_bbox": [
+          123,
+          15,
+          406,
+          473
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          260.5,
+          473
+        ],
+        "transparent_fraction": 0.609932,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 23700,
+        "rgba_sha256": "4732ea6497fbce9fa9187ebae9663e88a954e1fabff5ed8b3ed5f0d86f7afd6e"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          122,
+          16,
+          407,
+          474
+        ],
+        "artwork_dimensions": [
+          285,
+          458
+        ],
+        "opaque_core_bbox": [
+          123,
+          17,
+          406,
+          473
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          260.5,
+          473
+        ],
+        "transparent_fraction": 0.615452,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 22128,
+        "rgba_sha256": "f1a3081efda8395ee8389312c6d5568f33dd5ba8b95982d0c0282a2b0f136fce"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          122,
+          24,
+          407,
+          474
+        ],
+        "artwork_dimensions": [
+          285,
+          450
+        ],
+        "opaque_core_bbox": [
+          123,
+          25,
+          407,
+          473
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          260.5,
+          473
+        ],
+        "transparent_fraction": 0.618019,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 21604,
+        "rgba_sha256": "68b91f1934986de12cac2cad37246f05986d3a632cda3c2691e08f044686b361"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          123,
+          23,
+          407,
+          474
+        ],
+        "artwork_dimensions": [
+          284,
+          451
+        ],
+        "opaque_core_bbox": [
+          123,
+          24,
+          406,
+          473
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          260.5,
+          473
+        ],
+        "transparent_fraction": 0.632851,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 18125,
+        "rgba_sha256": "2d255b871fdd82631c43c22486e9095293749c53b721e305a2eb6ef04e2f7f90"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          122,
+          15,
+          407,
+          474
+        ],
+        "artwork_dimensions": [
+          285,
+          459
+        ],
+        "opaque_core_bbox": [
+          123,
+          16,
+          406,
+          473
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          260.5,
+          473
+        ],
+        "transparent_fraction": 0.634563,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 17448,
+        "rgba_sha256": "18b131ee788c24f38e8faaa0441542bb7c8aa45f547115aa356053bad04f1df9"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          122,
+          15,
+          407,
+          474
+        ],
+        "artwork_dimensions": [
+          285,
+          459
+        ],
+        "opaque_core_bbox": [
+          123,
+          16,
+          406,
+          473
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          260.5,
+          473
+        ],
+        "transparent_fraction": 0.647202,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 13978,
+        "rgba_sha256": "5ca7a30863c0f42d9773033e713eeb085ffaeb9a0431165518f0a29adb0feb8f"
+      }
+    ],
+    "registration": "跑动以头顶固定区域x锚点配准，垂直保留原始步态；跳跃只校正水平并保留升降；其他动作按双脚底部中点配准。",
+    "action_scale": 0.9650655021834061,
+    "frame_offsets": [
+      [
+        -4.5,
+        -16
+      ],
+      [
+        -4.5,
+        -16
+      ],
+      [
+        -4.5,
+        -16
+      ],
+      [
+        -4.5,
+        -16
+      ],
+      [
+        -4.5,
+        -16
+      ],
+      [
+        -4.5,
+        -16
+      ]
+    ]
+  },
+  "waiting": {
+    "source_frames": [
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          115,
+          13,
+          399,
+          466
+        ],
+        "artwork_dimensions": [
+          284,
+          453
+        ],
+        "opaque_core_bbox": [
+          116,
+          14,
+          398,
+          465
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          256.0,
+          465
+        ],
+        "transparent_fraction": 0.561028,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 36562,
+        "rgba_sha256": "41556aced6fcececa80af3724810bc9cd8a1c0f41c7a375798ccf7db4bdc956d"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          117,
+          13,
+          399,
+          466
+        ],
+        "artwork_dimensions": [
+          282,
+          453
+        ],
+        "opaque_core_bbox": [
+          118,
+          14,
+          398,
+          465
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          256.5,
+          465
+        ],
+        "transparent_fraction": 0.5467,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 40624,
+        "rgba_sha256": "8e55634d8edc1849353582966d65dea1e5ae4b88c29814a21f837153801d26cc"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          112,
+          14,
+          402,
+          466
+        ],
+        "artwork_dimensions": [
+          290,
+          452
+        ],
+        "opaque_core_bbox": [
+          113,
+          15,
+          401,
+          465
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          256.5,
+          465
+        ],
+        "transparent_fraction": 0.566166,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 33746,
+        "rgba_sha256": "a570c507780e8e1e68f78cee1e967f0033ee9585a433607844548694bd57c4c9"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          115,
+          15,
+          408,
+          466
+        ],
+        "artwork_dimensions": [
+          293,
+          451
+        ],
+        "opaque_core_bbox": [
+          116,
+          16,
+          407,
+          465
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          256.5,
+          465
+        ],
+        "transparent_fraction": 0.59549,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 25465,
+        "rgba_sha256": "34ce0a974a11ee5f15d0d3f74a8c6b74dc989c8b65b1ed2bf7ae4bc0f1a75284"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          114,
+          13,
+          401,
+          466
+        ],
+        "artwork_dimensions": [
+          287,
+          453
+        ],
+        "opaque_core_bbox": [
+          115,
+          14,
+          400,
+          465
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          256.5,
+          465
+        ],
+        "transparent_fraction": 0.607494,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 23870,
+        "rgba_sha256": "a314cc31bc2728e1df28d66b57d7e54ab22af1851ae93a0c1446a0131e79325f"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          116,
+          13,
+          401,
+          466
+        ],
+        "artwork_dimensions": [
+          285,
+          453
+        ],
+        "opaque_core_bbox": [
+          117,
+          14,
+          400,
+          465
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          256.5,
+          465
+        ],
+        "transparent_fraction": 0.633228,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 18031,
+        "rgba_sha256": "5ebbe0bb75f79a95072065de939c20b5a36488d2bda1257c1ad5cd7efb33f74a"
+      }
+    ],
+    "registration": "跑动以头顶固定区域x锚点配准，垂直保留原始步态；跳跃只校正水平并保留升降；其他动作按双脚底部中点配准。",
+    "action_scale": 0.9800443458980045,
+    "frame_offsets": [
+      [
+        0.0,
+        -8
+      ],
+      [
+        -0.5,
+        -8
+      ],
+      [
+        -0.5,
+        -8
+      ],
+      [
+        -0.5,
+        -8
+      ],
+      [
+        -0.5,
+        -8
+      ],
+      [
+        -0.5,
+        -8
+      ]
+    ]
+  },
+  "working": {
+    "source_frames": [
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          115,
+          9,
+          405,
+          455
+        ],
+        "artwork_dimensions": [
+          290,
+          446
+        ],
+        "opaque_core_bbox": [
+          116,
+          10,
+          403,
+          454
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          257.5,
+          454
+        ],
+        "transparent_fraction": 0.575127,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 32049,
+        "rgba_sha256": "8923507c3a2d8fcce76d58c92243dad15c610d8f38e6566f3aa9f0d4a42f9571"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          116,
+          9,
+          403,
+          455
+        ],
+        "artwork_dimensions": [
+          287,
+          446
+        ],
+        "opaque_core_bbox": [
+          117,
+          10,
+          402,
+          454
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          257.5,
+          454
+        ],
+        "transparent_fraction": 0.560982,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 36056,
+        "rgba_sha256": "761d073539991f0550ee4c061964825b961b69895d95cd507460f49999321802"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          116,
+          9,
+          405,
+          455
+        ],
+        "artwork_dimensions": [
+          289,
+          446
+        ],
+        "opaque_core_bbox": [
+          117,
+          10,
+          403,
+          454
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          258.0,
+          454
+        ],
+        "transparent_fraction": 0.595863,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 27348,
+        "rgba_sha256": "29eba7cdec88b54de1d377d45910ba970e31c01394acb08966b2bf2659ca9a71"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          116,
+          11,
+          407,
+          455
+        ],
+        "artwork_dimensions": [
+          291,
+          444
+        ],
+        "opaque_core_bbox": [
+          117,
+          12,
+          406,
+          454
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          257.5,
+          454
+        ],
+        "transparent_fraction": 0.61166,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 23243,
+        "rgba_sha256": "907bb2c944bd1a59673c84bd49add7851bf5422519ca564468d717c8ab609d56"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          118,
+          10,
+          407,
+          455
+        ],
+        "artwork_dimensions": [
+          289,
+          445
+        ],
+        "opaque_core_bbox": [
+          120,
+          11,
+          406,
+          454
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          258.0,
+          454
+        ],
+        "transparent_fraction": 0.607933,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 23614,
+        "rgba_sha256": "0cf71c2bbd4e0889706ddc14fa1f41b7a074a8498355aeca091d19d92c804991"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          116,
+          9,
+          405,
+          455
+        ],
+        "artwork_dimensions": [
+          289,
+          446
+        ],
+        "opaque_core_bbox": [
+          117,
+          10,
+          404,
+          454
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          257.5,
+          454
+        ],
+        "transparent_fraction": 0.632999,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 16890,
+        "rgba_sha256": "cadb08ee0e00830f7177944a1f1556e4d08dbc78e576fb7436bcdb8bbe74e576"
+      }
+    ],
+    "registration": "跑动以头顶固定区域x锚点配准，垂直保留原始步态；跳跃只校正水平并保留升降；其他动作按双脚底部中点配准。",
+    "action_scale": 0.9954954954954955,
+    "frame_offsets": [
+      [
+        -1.5,
+        3
+      ],
+      [
+        -1.5,
+        3
+      ],
+      [
+        -2.0,
+        3
+      ],
+      [
+        -1.5,
+        3
+      ],
+      [
+        -2.0,
+        3
+      ],
+      [
+        -1.5,
+        3
+      ]
+    ]
+  },
+  "review": {
+    "source_frames": [
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          117,
+          13,
+          399,
+          453
+        ],
+        "artwork_dimensions": [
+          282,
+          440
+        ],
+        "opaque_core_bbox": [
+          118,
+          14,
+          398,
+          452
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          258.0,
+          452
+        ],
+        "transparent_fraction": 0.649559,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 17498,
+        "rgba_sha256": "96259dd6d00b748baf1dee4de8fa228234dbe005a5b5e2b14ab82e211a569aa9"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          117,
+          13,
+          400,
+          453
+        ],
+        "artwork_dimensions": [
+          283,
+          440
+        ],
+        "opaque_core_bbox": [
+          118,
+          14,
+          399,
+          452
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          258.0,
+          452
+        ],
+        "transparent_fraction": 0.621418,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 25268,
+        "rgba_sha256": "5ef90f057aec69937409c30407163cafad3bbe7b5d1b8451b0761f35cd9a5760"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          118,
+          13,
+          400,
+          453
+        ],
+        "artwork_dimensions": [
+          282,
+          440
+        ],
+        "opaque_core_bbox": [
+          119,
+          14,
+          399,
+          452
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          258.0,
+          452
+        ],
+        "transparent_fraction": 0.650177,
+        "outside_core_15px_alpha_max": 2,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 17514,
+        "rgba_sha256": "ff2628058c557b6f83731a048aabd287e8ccee4c9c50b39aa565b120bf609dad"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          115,
+          13,
+          401,
+          453
+        ],
+        "artwork_dimensions": [
+          286,
+          440
+        ],
+        "opaque_core_bbox": [
+          116,
+          14,
+          400,
+          452
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          258.0,
+          452
+        ],
+        "transparent_fraction": 0.675518,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 10609,
+        "rgba_sha256": "3cb3870dbbf92a33fd743b76eaa8bf4f2b26fc070858c25fa3853c93d431c667"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          115,
+          13,
+          399,
+          453
+        ],
+        "artwork_dimensions": [
+          284,
+          440
+        ],
+        "opaque_core_bbox": [
+          116,
+          14,
+          399,
+          452
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          258.0,
+          452
+        ],
+        "transparent_fraction": 0.672253,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 11256,
+        "rgba_sha256": "8a2ad2fe3815bcd70e2571087a9ac3adf42c0202b7a40895c08962400bff84d8"
+      },
+      {
+        "dimensions": [
+          512,
+          512
+        ],
+        "bbox": [
+          118,
+          13,
+          400,
+          453
+        ],
+        "artwork_dimensions": [
+          282,
+          440
+        ],
+        "opaque_core_bbox": [
+          119,
+          14,
+          399,
+          452
+        ],
+        "feet_anchor_heuristic_bottom20px": [
+          258.0,
+          452
+        ],
+        "transparent_fraction": 0.678818,
+        "outside_core_15px_alpha_max": 1,
+        "outside_core_15px_pixels_alpha_gt3": 0,
+        "outside_core_15px_attention": false,
+        "low_alpha_noise_pixels": 9974,
+        "rgba_sha256": "1367b1d6a50a8f3881ea15bb41157528d4daa53a74498c706cd80f9e7cc7e1bd"
+      }
+    ],
+    "registration": "跑动以头顶固定区域x锚点配准，垂直保留原始步态；跳跃只校正水平并保留升降；其他动作按双脚底部中点配准。",
+    "action_scale": 1.0091324200913243,
+    "frame_offsets": [
+      [
+        -2.0,
+        5
+      ],
+      [
+        -2.0,
+        5
+      ],
+      [
+        -2.0,
+        5
+      ],
+      [
+        -2.0,
+        5
+      ],
+      [
+        -2.0,
+        5
+      ],
+      [
+        -2.0,
+        5
+      ]
+    ]
+  }
+}
